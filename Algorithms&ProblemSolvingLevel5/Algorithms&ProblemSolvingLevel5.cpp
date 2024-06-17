@@ -16,9 +16,26 @@ int main()
 	cout << "\nLinked List Content\n";
 	MydblLinkedList.PrintList();
 
+	clsDbllinkedList <int>::Node* N1 = MydblLinkedList.Find(2);
+
+	if (N1 != NULL)
+	{
+		cout << "\nNode with value 2 is found:-)\n";
+	}
+	else {
+		cout << "The Node is not Found:-)\n";
+	}
+
+	
+	MydblLinkedList.InsertAfter(N1, 500.25);
+	cout << "\nAfter Inserting 500 after\n";
+	MydblLinkedList.PrintList();
 
 
+	MydblLinkedList.InsertAtEnd(700);
+	cout << "\nAfter Adding 700 after\n";
+	MydblLinkedList.PrintList();
 
-   
+
 }
 
