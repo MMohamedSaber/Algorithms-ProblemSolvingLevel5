@@ -215,10 +215,6 @@ public:
         _Size--;
     }
 
-    bool IsEmpty()
-    {
-        return (head == NULL);
-    }
 
     // Count itmes by big O(n)
 
@@ -238,6 +234,19 @@ public:
 
     int Size() {
         return _Size;
+    }
+    
+    bool IsEmpty()
+    {
+        return (head == NULL);
+    }
+
+    void Clear()
+    {
+        while (_Size > 0)
+        {
+            DeleteFirstNode();
+        }
     }
 };
 
