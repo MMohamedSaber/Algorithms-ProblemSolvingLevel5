@@ -23,7 +23,7 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="clsDbllinkedList.h">
+    <ClInclude Include="class clsDblLinkedList.h">
       <Filter>DS</Filter>
     </ClInclude>
   </ItemGroup>

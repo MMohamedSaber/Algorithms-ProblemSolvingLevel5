@@ -7,8 +7,8 @@
       "RelativeMoniker": "D:0:0:{1DC63A04-2683-4E90-ADDB-63C4212EEA34}|Algorithms\u0026ProblemSolvingLevel5.vcxproj|solutionrelative:Algorithms\u0026ProblemSolvingLevel5.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1DC63A04-2683-4E90-ADDB-63C4212EEA34}|Algorithms\u0026ProblemSolvingLevel5.vcxproj|C:\\Users\\moham\\DS_PS_L13\\Algorithms\u0026ProblemSolvingLevel5\\clsDbllinkedList.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{1DC63A04-2683-4E90-ADDB-63C4212EEA34}|Algorithms\u0026ProblemSolvingLevel5.vcxproj|solutionrelative:clsDbllinkedList.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{1DC63A04-2683-4E90-ADDB-63C4212EEA34}|Algorithms\u0026ProblemSolvingLevel5.vcxproj|C:\\Users\\moham\\DS_PS_L13\\Algorithms\u0026ProblemSolvingLevel5\\class clsDblLinkedList.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1DC63A04-2683-4E90-ADDB-63C4212EEA34}|Algorithms\u0026ProblemSolvingLevel5.vcxproj|solutionrelative:class clsDblLinkedList.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,12 +31,12 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "clsDbllinkedList.h",
-              "DocumentMoniker": "C:\\Users\\moham\\DS_PS_L13\\Algorithms\u0026ProblemSolvingLevel5\\clsDbllinkedList.h",
-              "RelativeDocumentMoniker": "clsDbllinkedList.h",
-              "ToolTip": "C:\\Users\\moham\\DS_PS_L13\\Algorithms\u0026ProblemSolvingLevel5\\clsDbllinkedList.h",
-              "RelativeToolTip": "clsDbllinkedList.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAAAAAA",
+              "Title": "class clsDblLinkedList.h",
+              "DocumentMoniker": "C:\\Users\\moham\\DS_PS_L13\\Algorithms\u0026ProblemSolvingLevel5\\class clsDblLinkedList.h",
+              "RelativeDocumentMoniker": "class clsDblLinkedList.h",
+              "ToolTip": "C:\\Users\\moham\\DS_PS_L13\\Algorithms\u0026ProblemSolvingLevel5\\class clsDblLinkedList.h",
+              "RelativeToolTip": "class clsDblLinkedList.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-06-17T06:20:14.392Z",
               "EditorCaption": ""
@@ -49,7 +49,7 @@
               "RelativeDocumentMoniker": "Algorithms\u0026ProblemSolvingLevel5.cpp",
               "ToolTip": "C:\\Users\\moham\\DS_PS_L13\\Algorithms\u0026ProblemSolvingLevel5\\Algorithms\u0026ProblemSolvingLevel5.cpp",
               "RelativeToolTip": "Algorithms\u0026ProblemSolvingLevel5.cpp",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAhwCoAAAAeAAAA",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAADkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-06-17T06:07:47.848Z",
               "EditorCaption": ""

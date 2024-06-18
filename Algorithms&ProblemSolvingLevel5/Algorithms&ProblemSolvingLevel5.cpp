@@ -1,12 +1,12 @@
 
 
 #include <iostream>
-#include "clsDbllinkedList.h"
+#include "class clsDblLinkedList.h"
 using namespace std;
 
 int main()
 {
-	clsDbllinkedList <int> MydblLinkedList;
+	clsDblLinkedList <int> MydblLinkedList;
 
 	MydblLinkedList.InsertAtBeginning(5);
 	MydblLinkedList.InsertAtBeginning(4);
@@ -17,7 +17,7 @@ int main()
 	cout << "\nLinked List Content\n";
 	MydblLinkedList.PrintList();
 
-	clsDbllinkedList <int>::Node* N1 = MydblLinkedList.Find(2);
+	clsDblLinkedList <int>::Node* N1 = MydblLinkedList.Find(2);
 
 	if (N1 != NULL)
 	{
@@ -37,7 +37,7 @@ int main()
 	cout << "\nAfter Adding 700 after\n";
 	MydblLinkedList.PrintList();
 
-	clsDbllinkedList <int> ::Node* N2 = MydblLinkedList.Find(1);
+	clsDblLinkedList <int> ::Node* N2 = MydblLinkedList.Find(1);
 
 	MydblLinkedList.DeleteNode(N2);
 	cout << "\n\nAfter removing 1 Node\n";
