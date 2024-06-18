@@ -7,6 +7,11 @@ template <class T>
 class clsDblLinkedList
 {
 
+protected:
+
+    int _Size;
+
+
 public:
 
     class Node
@@ -40,7 +45,8 @@ public:
         }
         head = newNode;
 
-
+        //To Count Size of items
+        _Size++;
     }
 
     // Print the linked list
@@ -93,6 +99,8 @@ public:
         }
         current->next = newNode;
 
+        //To Count Size of items
+        _Size++;
 
     }
 
@@ -122,7 +130,8 @@ public:
             newNode->prev = current;
         }
 
-
+        //To Count Size of items
+        _Size++;
     }
 
     void DeleteNode(Node*& NodeToDelete) {
@@ -146,7 +155,8 @@ public:
         }
         delete NodeToDelete;
 
-
+        //To Count Size of items
+        _Size--;
     }
 
     void DeleteFirstNode()
@@ -168,7 +178,8 @@ public:
             head->prev = NULL;
         }
         delete temp;
-
+        //To Count Size of items
+        _Size--;
     }
 
     void DeleteLastNode() {
@@ -200,12 +211,14 @@ public:
         current->next = NULL;
         delete temp;
 
+        //To Count Size of items
+        _Size--;
     }
 
 
     // Count itmes by big O(n)
 
-    int Size()
+   /* int Size()
     {
         Node* Current = head;
         int NodesCounter = 0;
@@ -216,7 +229,11 @@ public:
 
         }
         return NodesCounter;
-    }
+    }*/
 
+
+    int Size() {
+        return _Size;
+    }
 };
 
