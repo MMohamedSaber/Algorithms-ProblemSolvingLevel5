@@ -8,10 +8,11 @@ int main()
 {
 	clsDbllinkedList <int> MydblLinkedList;
 
-	MydblLinkedList.InsertAtBeginning(1);
-	MydblLinkedList.InsertAtBeginning(2);
-	MydblLinkedList.InsertAtBeginning(3);
+	MydblLinkedList.InsertAtBeginning(5);
 	MydblLinkedList.InsertAtBeginning(4);
+	MydblLinkedList.InsertAtBeginning(3);
+	MydblLinkedList.InsertAtBeginning(2);
+	MydblLinkedList.InsertAtBeginning(1);
 
 	cout << "\nLinked List Content\n";
 	MydblLinkedList.PrintList();
@@ -36,6 +37,21 @@ int main()
 	cout << "\nAfter Adding 700 after\n";
 	MydblLinkedList.PrintList();
 
+	clsDbllinkedList <int> ::Node* N2 = MydblLinkedList.Find(1);
 
+	MydblLinkedList.DeleteNode(N2);
+	cout << "\n\nAfter removing 1 Node\n";
+	MydblLinkedList.PrintList();
+
+	MydblLinkedList.DeleteFirstNode();
+	cout << "\n\nAfter removing first Node\n";
+	MydblLinkedList.PrintList();
+
+
+	MydblLinkedList.DeleteLastNode();
+	cout << "\n\nAfter removing Last Node\n";
+	MydblLinkedList.PrintList();
+	
+	system("pause>0");
 }
 
