@@ -202,5 +202,21 @@ public:
 
     }
 
+
+    // Count itmes by big O(n)
+
+    int Size()
+    {
+        Node* Current = head;
+        int NodesCounter = 0;
+        while (Current != NULL)
+        {
+            NodesCounter++;
+            Current = Current->next;
+
+        }
+        return NodesCounter;
+    }
+
 };
 

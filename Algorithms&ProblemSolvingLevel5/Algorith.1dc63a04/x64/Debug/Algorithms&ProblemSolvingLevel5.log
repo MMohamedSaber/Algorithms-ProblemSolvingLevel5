@@ -1,7 +1,2 @@
 ﻿  Algorithms&ProblemSolvingLevel5.cpp
-C:\Users\moham\DS_PS_L13\Algorithms&ProblemSolvingLevel5\Algorithms&ProblemSolvingLevel5.cpp(31,34): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
-C:\Users\moham\DS_PS_L13\Algorithms&ProblemSolvingLevel5\Algorithms&ProblemSolvingLevel5.cpp(31,34): warning C4244:         with
-C:\Users\moham\DS_PS_L13\Algorithms&ProblemSolvingLevel5\Algorithms&ProblemSolvingLevel5.cpp(31,34): warning C4244:         [
-C:\Users\moham\DS_PS_L13\Algorithms&ProblemSolvingLevel5\Algorithms&ProblemSolvingLevel5.cpp(31,34): warning C4244:             T=int
-C:\Users\moham\DS_PS_L13\Algorithms&ProblemSolvingLevel5\Algorithms&ProblemSolvingLevel5.cpp(31,34): warning C4244:         ]
   Algorithms&ProblemSolvingLevel5.vcxproj -> C:\Users\moham\DS_PS_L13\Algorithms&ProblemSolvingLevel5\x64\Debug\Algorithms&ProblemSolvingLevel5.exe
