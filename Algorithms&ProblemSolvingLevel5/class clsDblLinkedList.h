@@ -215,6 +215,10 @@ public:
         _Size--;
     }
 
+    bool IsEmpty()
+    {
+        return (head == NULL);
+    }
 
     // Count itmes by big O(n)
 
