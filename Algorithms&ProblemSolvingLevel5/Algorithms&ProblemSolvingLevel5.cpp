@@ -23,8 +23,8 @@ int main()
 
 
 
-	cout << "\n\nGet Item (2) : ";
-	MydblLinkedList.UpdateItem(2, 500);
+	
+	MydblLinkedList.InsertAfter(6, 500);
 
 	cout << "\nLinked List Content\n";
 	MydblLinkedList.PrintList();

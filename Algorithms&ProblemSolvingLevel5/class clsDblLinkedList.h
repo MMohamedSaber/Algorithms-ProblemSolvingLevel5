@@ -322,5 +322,22 @@ public:
             }
         }
     
+        bool InsertAfter(int Index, T NewValue)
+        {
+
+            Node* ItemIndex = GetNode(Index);
+
+            if (ItemIndex != NULL)
+            {
+                InsertAfter(ItemIndex, NewValue);
+                return true;
+            }
+            else {
+                return false;
+            }
+
+
+        }
+
 };
 
