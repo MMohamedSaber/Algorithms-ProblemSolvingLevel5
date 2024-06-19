@@ -268,6 +268,30 @@ public:
         }
 
      
+        //Get Node by Index
+        Node* GetNode(T Index)
+        {
+
+            if (Index > _Size  || Index < 0)
+                return NULL;
+
+           int  Counter = 0;
+            Node* Temp = head;
+
+            while (Temp != NULL)
+            {
+
+                if (Counter == Index)
+                    break;
+
+                Temp = Temp->next;
+                Counter++;
+
+            }
+            
+            return Temp;
+          
+        }
        
     
 };

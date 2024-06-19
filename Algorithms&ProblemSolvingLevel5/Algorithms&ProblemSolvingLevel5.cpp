@@ -22,12 +22,10 @@ int main()
 	cout << "\nNumber of the itmes in the linked list is = " << MydblLinkedList.Size();
 
 
-	MydblLinkedList.Reverse();
-	cout << "\nLinked List Content\n";
-	MydblLinkedList.PrintList();
+	clsDblLinkedList <int >::Node * N;
+	N = MydblLinkedList.GetNode(2);
 
-
-	
+	cout << "\n\nNode Value is : " << N->value;
 	system("pause>0");
 }
 
