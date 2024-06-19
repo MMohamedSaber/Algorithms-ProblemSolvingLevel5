@@ -22,10 +22,8 @@ int main()
 	cout << "\nNumber of the itmes in the linked list is = " << MydblLinkedList.Size();
 
 
-	clsDblLinkedList <int >::Node * N;
-	N = MydblLinkedList.GetNode(2);
 
-	cout << "\n\nNode Value is : " << N->value;
+	cout << "\n\nGet Item (2) : " <<MydblLinkedList.GetItem(2);
 	system("pause>0");
 }
 
