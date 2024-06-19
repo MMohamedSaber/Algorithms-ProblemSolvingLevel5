@@ -23,7 +23,12 @@ int main()
 
 
 
-	cout << "\n\nGet Item (2) : " <<MydblLinkedList.GetItem(2);
+	cout << "\n\nGet Item (2) : ";
+	MydblLinkedList.UpdateItem(2, 500);
+
+	cout << "\nLinked List Content\n";
+	MydblLinkedList.PrintList();
+
 	system("pause>0");
 }
 

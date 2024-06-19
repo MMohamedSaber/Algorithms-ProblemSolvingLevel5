@@ -269,7 +269,7 @@ public:
 
      
         //Get Node by Index
-        Node* GetNode(T Index)
+        Node* GetNode(int Index)
         {
 
             if (Index > _Size  || Index < 0)
@@ -294,7 +294,7 @@ public:
         }
        
 
-        T GetItem(T Index)
+        T GetItem(int Index)
         {
 
             Node* ItemNode = GetNode(Index);
@@ -303,6 +303,23 @@ public:
             else
                 return ItemNode->value;
 
+        }
+
+        bool UpdateItem(int Index, T NewValue)
+        {
+
+            Node* ItemNode = GetNode(Index);
+
+            if (ItemNode != NULL)
+            {
+                ItemNode->value = NewValue;
+                return true;
+
+            }
+            else
+            {
+                return false;
+            }
         }
     
 };
