@@ -21,10 +21,11 @@ int main()
 
 	cout << "\nNumber of the itmes in the linked list is = " << MydblLinkedList.Size();
 
-	cout << "\n\nClearing Linked List\n";
-	MydblLinkedList.Clear();
-	
-	cout << "\nNumber of the itmes in the linked list is = " << MydblLinkedList.Size();
+
+	MydblLinkedList.Reverse();
+	cout << "\nLinked List Content\n";
+	MydblLinkedList.PrintList();
+
 
 	
 	system("pause>0");
