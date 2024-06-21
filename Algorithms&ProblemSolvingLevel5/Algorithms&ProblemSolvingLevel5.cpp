@@ -13,7 +13,7 @@ int main()
 	MyDynamicArray.SetItem(1,20);
 	MyDynamicArray.SetItem(2,30);
 	MyDynamicArray.SetItem(3,40);
-	MyDynamicArray.SetItem(11,50);
+	MyDynamicArray.SetItem(4,50);
 
 	cout << "\nArray Size : "<< MyDynamicArray.Size();
 	cout << "\nIs Empty ? : "<< MyDynamicArray.IsEmpty();
@@ -21,8 +21,16 @@ int main()
 	cout << "\nArray Items:\n";
 	MyDynamicArray.PrintList();
 
+	MyDynamicArray.Resize(2);
+	cout << "\nArray Size: " << MyDynamicArray.Size() << "\n";
+	cout << "\nArray Items after resize to 2 : \n";
+	MyDynamicArray.PrintList();
 
 
+	MyDynamicArray.Resize(10);
+	cout << "\nArray Size: " << MyDynamicArray.Size() << "\n";
+	cout << "\nArray Items after resize to 2 : \n";
+	MyDynamicArray.PrintList();
 
 	system("pause>0");
 }

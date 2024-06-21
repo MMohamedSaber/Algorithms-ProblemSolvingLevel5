@@ -7,12 +7,13 @@ class clsMyDynamicArray
 {
 	
 	int _Size=0;
-	T* _arr;
-	
+
+	T* TempArray;
 
 
 public:
 
+	T* OriginalArray;
 	clsMyDynamicArray(int size)
 	{
 		if (size < 0)
@@ -21,9 +22,45 @@ public:
 		}
 
 		_Size = size;
-		_arr = new T[_Size];
+		OriginalArray = new T[_Size];
 	}
 
+	~clsMyDynamicArray()
+	{
+		delete[] OriginalArray;
+	}
+
+	void   Resize(int newSize)
+	{
+		if (newSize < 0)
+		{
+			return;
+		}
+
+		TempArray = new T[newSize];
+
+		// just getting to newSize
+		if (newSize < _Size)
+		{
+			_Size = newSize;
+		}
+		
+		// cop Items into Temporary array
+		for (int i = 0; i < _Size; i++)
+		{
+			TempArray[i] = OriginalArray[i];
+		}
+		
+
+		//if new Size > Size
+		_Size = newSize;
+
+		delete[] OriginalArray;
+		OriginalArray = TempArray;
+
+
+
+	}
 
 	bool SetItem(int Index,T Item)
 	{
@@ -33,7 +70,7 @@ public:
 			return false;
 		}
 
-		_arr[Index] = Item;
+		OriginalArray[Index] = Item;
 		return true;
 		
 	} 
@@ -52,7 +89,7 @@ public:
 	{
 		for (int i = 0; i < _Size; i++)
 		{
-			cout<<_arr[i] << " " ;
+			cout<<OriginalArray[i] << " " ;
 		}
 		cout << endl;
 	}
