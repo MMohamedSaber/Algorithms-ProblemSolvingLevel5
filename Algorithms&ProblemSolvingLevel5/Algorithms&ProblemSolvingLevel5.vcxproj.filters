@@ -29,10 +29,13 @@
     <ClInclude Include="clsMyQueue.h">
       <Filter>DS</Filter>
     </ClInclude>
-    <ClInclude Include="clsMyStack.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="clsMyDynamicArray.h">
+      <Filter>DS</Filter>
+    </ClInclude>
+    <ClInclude Include="clsMyStack.h">
+      <Filter>DS</Filter>
+    </ClInclude>
+    <ClInclude Include="clsMyQueueArr.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

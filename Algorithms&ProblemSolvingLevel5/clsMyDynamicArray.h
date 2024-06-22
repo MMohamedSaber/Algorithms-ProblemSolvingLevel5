@@ -14,7 +14,14 @@ class clsMyDynamicArray
 public:
 
 	T* OriginalArray;
-	clsMyDynamicArray(int size)
+
+	/*clsMyDynamicArray()
+	{
+		
+	}*/
+
+
+	clsMyDynamicArray(int size=0)
 	{
 		if (size < 0)
 		{
